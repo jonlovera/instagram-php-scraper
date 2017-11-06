@@ -1,6 +1,4 @@
-<p align="center">
-    <h1>Instagram PHP Scraper</h1>
-</p>
+# Instagram PHP Scraper
 
 instagram-php-scraper is a simple file written in PHP that scrapes and show in a JSON format an instagram user's photos, likes, videos, etc. Use responsibly.
 
