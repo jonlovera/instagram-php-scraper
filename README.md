@@ -14,18 +14,17 @@ instagram-php-scraper is a simple file written in PHP that scrapes and show in a
 `$user = "USERNAME_HERE";`
 
 # Basic Usage
-You could make a Javascript file which reads the information from the JSON
+You could make a Javascript function that ajax the url where the php file is to get the information from the JSON like an API
 ```javascript
 function instagramAjax() {
     return $.ajax({
         type: "GET",
-        // REPLACE THIS WITH THE URL OF THE INDEX FILE
-        // url: "api/instagram/",
-        url: "api/instagram/example.json",
+        // REPLACE THIS WITH THE URL OF THE instagram-php-scraper.php FILE
+        url: "api/instagram-php-scraper.php",
         dataType: "json",
         success: function(res) {
             // Just console.log the res or have a look to the example.json
-            // to see all the information that scrapes from instagram
+            // on the repository to see all the information that scrapes from instagram
 
             // console.log(res);
             // display_src
@@ -46,10 +45,11 @@ function instagramAjax() {
             }
         },
         error: function(res) {
-            // console.log(res);
+            // errors .....
         }
     });
-}```
+}
+```
 
 Done!
 
