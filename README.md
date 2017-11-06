@@ -15,7 +15,8 @@ instagram-php-scraper is a simple file written in PHP that scrapes and show in a
 
 # Basic Usage
 You could make a Javascript file which reads the information from the JSON
-`function instagramAjax() {
+```javascript
+function instagramAjax() {
     return $.ajax({
         type: "GET",
         // REPLACE THIS WITH THE URL OF THE INDEX FILE
@@ -48,7 +49,7 @@ You could make a Javascript file which reads the information from the JSON
             // console.log(res);
         }
     });
-}`
+}```
 
 Done!
 
