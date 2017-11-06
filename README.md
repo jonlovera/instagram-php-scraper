@@ -6,7 +6,7 @@ instagram-php-scraper is a simple file written in PHP that scrapes and show in a
 
 # Installation
 1. Clone the repository
-`git clone https://github.com/jonlov/jonlov.github.io.git`
+`git clone https://github.com/jonlov/instagram-php-scraper.git`
 
 2. Copy the index.php file into a folder
 
