@@ -1,7 +1,5 @@
 <p align="center">
-    <img src="/assets/img/logo-80x82.png" alt="Jonathan Lovera"/>
-    <br>
-    <h1>Jonathan Lovera's Portfolio</h1>
+    <h1>Instagram PHP Scraper</h1>
 </p>
 
 instagram-php-scraper is a simple file written in PHP that scrapes and show in a JSON format an instagram user's photos, likes, videos, etc. Use responsibly.
@@ -23,10 +21,10 @@ You could make a Javascript file which reads the information from the JSON
         // REPLACE THIS WITH THE URL OF THE INDEX FILE
         // url: "api/instagram/",
         url: "api/instagram/example.json",
-        dataType: 'json',
+        dataType: "json",
         success: function(res) {
             // Just console.log the res or have a look to the example.json
-            // to see all the information that it brings
+            // to see all the information that scrapes from instagram
 
             // console.log(res);
             // display_src
@@ -36,7 +34,7 @@ You could make a Javascript file which reads the information from the JSON
             // is_video
             // caption
 
-            var html = '';
+            var html = "";
             // For 9 images do the following
             for (var i = 0; i < 9; i++) {
                 // This will be the url of a picture
