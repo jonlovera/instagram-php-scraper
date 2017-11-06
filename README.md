@@ -10,7 +10,7 @@ instagram-php-scraper is a simple file written in PHP that scrapes and show in a
 
 2. Copy the index.php file into a folder
 
-3. Change $user variable in the php file for the user that you would like to get information
+3. Change $user variable in the php file and put the username from instagram that you would like to get information from
 `$user = "USERNAME_HERE";`
 
 # Basic Usage
