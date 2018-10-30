@@ -8,7 +8,7 @@
      require './simple-cache.php';
 
     // Defining username
-    $user = "zuck";
+    $user = "USERNAME_HERE";
 
     // Defining cache folder
     $cacheFolder = 'instagram-cache';
