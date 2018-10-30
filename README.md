@@ -6,10 +6,12 @@ instagram-php-scraper is a simple file written in PHP that scrapes and show in a
 1. Clone the repository
 `git clone https://github.com/jonlov/instagram-php-scraper.git`
 
-2. Copy the index.php file into a folder
+2. Copy the src folder into your PHP server.
 
 3. Change $user variable in the php file and put the username from instagram that you would like to get information from
 `$user = "USERNAME_HERE";`
+
+4. Visit instagram-php-scraper.php on your browser.
 
 # Basic Usage
 You could make a Javascript function that ajax the url where the php file is to get the information from the JSON like an API
